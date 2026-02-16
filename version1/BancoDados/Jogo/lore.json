@@ -1,0 +1,17 @@
+LORE_ESPIRAL_VERDE = {
+    "titulo": "A Jornada",
+    "tema": "RPG Amazônico Espiritual",
+    "prologo": {
+        "descricao": (
+            "Na aldeia às margens do Rio Negro, nasce uma criança durante uma noite sem lua. "
+            "Os pajés dizem que ele nasceu no ritmo da floresta. "
+            "Ele não chorou. O vento soprou. "
+            "Os espíritos o chamam de 'Aquele que caminha na Espiral'."
+        ),
+        "efeitos_iniciais": {
+            "favor_floresta": 10,
+            "corrupcao": 0,
+            "sanidade": 100
+        }
+    },
+}

@@ -1,0 +1,36 @@
+{
+    "darkcover": [
+        {
+            "nome": "Arthas",
+            "classe": "Caçador",
+            "nivel": 100,
+            "xp": 3542248481792619150750,
+            "xp_complementar": 3542248481792619150750,
+            "dia": 1,
+            "vida": 100,
+            "bravura": 100,
+            "destreza": 100,
+            "conexao": 100,
+            "resistencia": 100,
+            "harmonia": 100
+        },
+        {
+            "nome": "Merlin",
+            "classe": "Pajeh",
+            "nivel": 1,
+            "xp": 0,
+            "xp_complementar": 10,
+            "dia": 1
+        }
+    ],
+    "player1": [
+        {
+            "nome": "Legolas",
+            "classe": "Guerreiro da Aldeia",
+            "nivel": 10,
+            "xp": 0,
+            "xp_complementar": 10,
+            "dia": 1
+        }
+    ]
+}

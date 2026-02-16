@@ -1,0 +1,102 @@
+{
+    "0": {
+        "Titulo": "A Jornada",
+        "descrição": "Muito antes de seu nome ser sussurrado pelos vivos, a floresta já o conhecia. Na noite em que nasceu, o céu estava vazio — nenhuma estrela ousou vigiar o mundo. \nÀs margens do Rio Negro, as águas desaceleraram como se escutassem algo antigo se aproximando. \nOs animais silenciaram. Nem mesmo os insetos cantaram.\n\n\n\nQuando a criança veio ao mundo, não houve choro. \nO ar se moveu em espiral ao redor da oca, levantando cinzas do fogo sagrado e espalhando-as como presságio. \nOs pajés, com os rostos pintados de urucum e jenipapo, sentiram o peso invisível daquela presença. \nNão era apenas um nascimento — era um retorno.\n\n\n\nNaquela madrugada sem lua, um dos mais antigos xamãs declarou que a floresta havia aberto um ciclo. \nDisse que o menino não caminharia apenas sobre a terra, mas também entre camadas invisíveis do mundo: \nonde espíritos antigos respiram, onde memórias das árvores sussurram e onde o tempo se dobra como cipó molhado.\n\n\n\nSonhos começaram a visitá-lo antes mesmo que aprendesse a falar. \nSonhos de raízes que cresciam para o céu, de rios que corriam ao contrário, \nde uma espiral verde pulsando sob o solo como um coração adormecido.\n\n\n\nOs mais velhos o chamaram de 'Aquele que Caminha na Espiral'. \nAlguns viram esperança. Outros temeram que todo ciclo exige sacrifício.\n\n\n\nPois a floresta não escolhe por acaso.\n\nEla corrige.\n\nEla equilibra.\n\nE quando desperta alguém em seu ritmo, \né porque algo muito antigo começou a se mover nas profundezas.",
+        "impacto": "Os espíritos o chamam de 'Aquele que caminha na Espiral'."
+    },
+    "1": {
+        "titulo": "O Chamado",
+        "descricao": "O vento gira ao contrário. Pegadas invertidas surgem na lama. Algo observa das sombras da mata.",
+        "impacto": "Desperta a conexão espiritual inicial."
+    },
+    "2": {
+        "titulo": "O Primeiro Sinal",
+        "descricao": "Um animal é encontrado morto sem ferimentos. Seus olhos ainda brilham sob a luz do amanhecer.",
+        "impacto": "Primeiro presságio da instabilidade da floresta."
+    },
+    "3": {
+        "titulo": "O Sonho do Rio Invertido",
+        "descricao": "Durante a noite, o personagem sonha com um rio que corre para o céu. Uma voz sussurra seu nome.",
+        "impacto": "Primeiro teste de sanidade."
+    },
+    "5": {
+        "titulo": "A Marca da Raiz",
+        "descricao": "Após uma febre intensa, um símbolo semelhante a raízes surge em seu peito.",
+        "impacto": "Desbloqueia sensibilidade espiritual."
+    },
+    "8": {
+        "titulo": "A Escolha",
+        "descricao": "Um espírito ferido surge diante dele. Ele pode ajudar ou absorver seu poder.",
+        "impacto": "Primeira decisão moral relevante."
+    },
+    "13": {
+        "titulo": "O Julgamento Menor",
+        "descricao": "Uma entidade da floresta testa sua força, espírito e intenção.",
+        "impacto": "Primeiro combate espiritual significativo."
+    },
+    "21": {
+        "titulo": "A Distorção",
+        "descricao": "Os animais começam a evitá-lo. A floresta reage à sua presença.",
+        "impacto": "Favor e Corrupção começam a alterar eventos."
+    },
+    "34": {
+        "titulo": "A Caçada do Mapinguari",
+        "descricao": "Uma criatura ancestral emerge das sombras. Não é apenas combate — é julgamento.",
+        "impacto": "Primeiro grande desafio físico."
+    },
+    "55": {
+        "titulo": "A Ruptura da Aldeia",
+        "descricao": "A aldeia é atacada. Espíritos e humanos entram em conflito.",
+        "impacto": "Decisão que altera permanentemente o mundo."
+    },
+    "89": {
+        "titulo": "A Espiral Revelada",
+        "descricao": "Ele percebe que os eventos seguem um padrão natural invisível.",
+        "impacto": "Consciência do ciclo da floresta."
+    },
+    "144": {
+        "titulo": "A Verdade Sob as Raízes",
+        "descricao": "Descobre que algo antigo desperta sob a floresta.",
+        "impacto": "Introdução do antagonismo principal."
+    },
+    "233": {
+        "titulo": "O Sacrifício",
+        "descricao": "Para avançar, deve perder algo: humanidade, sanidade ou poder.",
+        "impacto": "Mudança irreversível."
+    },
+    "377": {
+        "titulo": "A Transformação",
+        "descricao": "Seu corpo e espírito começam a mudar. A floresta passa a reconhecê-lo como parte dela.",
+        "impacto": "Alteração estrutural do personagem."
+    },
+    "610": {
+        "titulo": "O Guardião Antigo",
+        "descricao": "Uma entidade colossal desperta. Não é vilã — é consequência.",
+        "impacto": "Boss espiritual maior."
+    },
+    "987": {
+        "titulo": "A Escolha Final do Homem",
+        "descricao": "Ele pode purificar, dominar ou fundir-se à floresta.",
+        "impacto": "Define alinhamento final."
+    },
+    "1597": {
+        "titulo": "A Espiral Quebrada",
+        "descricao": "O mundo muda de acordo com suas escolhas acumuladas.",
+        "impacto": "Final principal desbloqueado."
+    },
+    "2584": {
+        "titulo": "Novo Ciclo",
+        "descricao": "A floresta reinicia, mas carrega ecos do que foi feito.",
+        "impacto": "Sistema de novo ciclo roguelike leve."
+    },
+    "4181": {
+        "titulo": "A Lenda",
+        "descricao": "Histórias contraditórias surgem sobre aquele que caminhou na Espiral.",
+        "impacto": "Modo legado desbloqueado."
+    },
+    "6765": {
+        "titulo": "O Eco Eterno",
+        "descricao": "A Espiral nunca termina. Outro nascerá.",
+        "impacto": "Sistema infinito desbloqueado."
+    }
+}

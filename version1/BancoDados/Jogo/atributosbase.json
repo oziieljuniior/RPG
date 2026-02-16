@@ -1,0 +1,25 @@
+{
+    "paje": {
+        "Bravura": 3,
+        "Destreza": 4,
+        "Conexao_Espiritual": 8,
+        "Resistencia": 4,
+        "Harmonia": 6
+    },
+
+    "cacador": {
+        "Bravura": 5,
+        "Destreza": 8,
+        "Conexao_Espiritual": 3,
+        "Resistencia": 5,
+        "Harmonia": 4
+    },
+
+    "guerreiro_espiritual": {
+        "Bravura": 8,
+        "Destreza": 4,
+        "Conexao_Espiritual": 4,
+        "Resistencia": 7,
+        "Harmonia": 2
+    }
+}
