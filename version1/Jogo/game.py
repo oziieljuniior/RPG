@@ -1,9 +1,13 @@
 from Jogo.Configuracoes.AtualizarDescricao import atualizar_json
+from Jogo.Raizes.mapa import mapa
 from Jogo.Eventos.dia import eventodialooper
+from Jogo.Eventos.sorte import rollSorte
 import os # os.system("clear")
+from Jogo.Raizes.cuiafurada import cuiafurada
 
 
 def iniciar_jogo(usuario, personagem):
+    controle1 = 0
     while True:
         print("\n==============================")
         print("🎮 AVENTURA - Cidade de Manaus")
@@ -17,6 +21,10 @@ def iniciar_jogo(usuario, personagem):
         
         eventodialooper(personagem)
         
+        if controle1 == 0:
+            personagem['sorte'] = rollSorte()
+            controle1 = 1
+            
         print("\n=== TELA DO JOGO ===")
         
         print("[1] Cuia Furada")
@@ -38,9 +46,10 @@ def iniciar_jogo(usuario, personagem):
             continue
 
         if opcao == 1:
-            print("Você explora a região...")
             os.system("clear")
-            # Futuramente chamar módulo de exploração
+            print("Cuia Furada - Local de encontros e eventos sociais.")
+            personagem, controle1 = cuiafurada(personagem, controle1)
+            
         elif opcao == 2:
             print("\n=== STATUS ===")
             for chave, valor in personagem.items():
@@ -75,13 +84,13 @@ def iniciar_jogo(usuario, personagem):
             for chave, valor in personagem.items():
                 print(f"{chave.capitalize()}: {valor}")
         elif opcao == 10:
-            print("\n=== STATUS ===")
-            for chave, valor in personagem.items():
-                print(f"{chave.capitalize()}: {valor}")
+            os.system("clear")
+            print("\n======= Mapa ========")
+            mapa()
         elif opcao == 11:
             print("Salvando progresso...")
             atualizar_json(personagem)
-            
+            os.system("clear")
             break
         else:
             print("Opção inválida!")

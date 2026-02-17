@@ -4,7 +4,15 @@
         "Destreza": 4,
         "Conexao_Espiritual": 8,
         "Resistencia": 4,
-        "Harmonia": 6
+        "Harmonia": 6,
+        "sorte": 1,
+        "suprimentos": 32,
+        "suprimentos_complementar": 32,
+        "sanidade": 10,
+        "sanidade_complementar": 10,
+        "items": [],
+        "iventario": [],
+        "ouro": 10
     },
 
     "Cacador": {
@@ -12,7 +20,15 @@
         "Destreza": 8,
         "Conexao_Espiritual": 3,
         "Resistencia": 5,
-        "Harmonia": 4
+        "Harmonia": 4,
+        "sorte": 1,
+        "suprimentos": 32,
+        "suprimentos_complementar": 32,
+        "sanidade": 10,
+        "sanidade_complementar": 10,
+        "items": [],
+        "iventario": [],
+        "ouro": 10
     },
 
     "Guerreiro": {
@@ -20,6 +36,14 @@
         "Destreza": 4,
         "Conexao_Espiritual": 4,
         "Resistencia": 7,
-        "Harmonia": 2
+        "Harmonia": 2,
+        "sorte": 1,
+        "suprimentos": 32,
+        "suprimentos_complementar": 32,
+        "sanidade": 10,
+        "sanidade_complementar": 10,
+        "items": [],
+        "iventario": [],
+        "ouro": 10
     }
 }

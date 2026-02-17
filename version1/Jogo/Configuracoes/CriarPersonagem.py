@@ -64,11 +64,20 @@ def criar_personagem(usuario):
         "xp_complementar": 10,
         "dia": 1,
         "vida": eventovida,
+        "hp": eventovida,
         "bravura": atributos_classe["Bravura"],
         "destreza": atributos_classe["Destreza"],
         "conexao_espiritual": atributos_classe["Conexao_Espiritual"],
         "resistencia": atributos_classe["Resistencia"],
-        "harmonia": atributos_classe["Harmonia"]
+        "harmonia": atributos_classe["Harmonia"],
+        "sorte": atributos_classe["sorte"],
+        "suprimentos": atributos_classe["suprimentos"],
+        "suprimentos_complementar": atributos_classe["suprimentos_complementar"],
+        "sanidade": atributos_classe["sanidade"],
+        "sanidade_complementar": atributos_classe["sanidade_complementar"],
+        "items": atributos_classe["items"],
+        "iventario": atributos_classe["iventario"],
+        "ouro": atributos_classe["ouro"]
     }
 
     # 🔹 Se o arquivo não existir, cria banco vazio

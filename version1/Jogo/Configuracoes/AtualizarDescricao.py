@@ -22,7 +22,7 @@ def atualizar_json(novos_dados):
             #print("Comparando:", personagem.get("nome"), "com", nome_alvo)
             
             if personagem.get("nome") == nome_alvo:
-                dados[jogador][i].update(novos_dados)
+                #dados[jogador][i].update(novos_dados)
                 print("Personagem atualizado:", dados[jogador][i])
                 atualizado = True
                 break
