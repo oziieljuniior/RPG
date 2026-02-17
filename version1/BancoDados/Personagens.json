@@ -41,6 +41,34 @@
             "conexao_espiritual": 3,
             "resistencia": 5,
             "harmonia": 4
+        },
+        {
+            "nome": "ivvy",
+            "classe": "Guerreiro",
+            "nivel": 1,
+            "xp": 0,
+            "xp_complementar": 10,
+            "dia": 1,
+            "vida": 15,
+            "bravura": 8,
+            "destreza": 4,
+            "conexao_espiritual": 4,
+            "resistencia": 7,
+            "harmonia": 2
+        },
+        {
+            "nome": "Lana",
+            "classe": "Cacador",
+            "nivel": 1,
+            "xp": 0,
+            "xp_complementar": 10,
+            "dia": 1,
+            "vida": 15,
+            "bravura": 5,
+            "destreza": 8,
+            "conexao_espiritual": 3,
+            "resistencia": 5,
+            "harmonia": 4
         }
     ],
     "player1": [

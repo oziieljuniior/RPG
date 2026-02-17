@@ -1,4 +1,5 @@
 from Jogo.Eventos.dia import eventodialooper
+import os # os.system("clear")
 
 
 def iniciar_jogo(usuario, personagem):
@@ -12,7 +13,9 @@ def iniciar_jogo(usuario, personagem):
         print("==============================")
         
         print("\nEvento Dia")
-        eventodialooper(personagem['nome'],personagem['nivel'],personagem['xp'],personagem['dia'])
+        
+        eventodialooper(personagem)
+        
         print("\n=== TELA DO JOGO ===")
         
         print("[1] Cuia Furada")
@@ -35,8 +38,42 @@ def iniciar_jogo(usuario, personagem):
 
         if opcao == 1:
             print("Você explora a região...")
+            os.system("clear")
             # Futuramente chamar módulo de exploração
         elif opcao == 2:
+            print("\n=== STATUS ===")
+            for chave, valor in personagem.items():
+                print(f"{chave.capitalize()}: {valor}")
+        elif opcao == 3:
+            print("\n=== STATUS ===")
+            for chave, valor in personagem.items():
+                print(f"{chave.capitalize()}: {valor}")
+        elif opcao == 4:
+            os.system("clear")
+            print("\n=== STATUS ===")
+            for chave, valor in personagem.items():
+                print(f"{chave.capitalize()}: {valor}")
+        elif opcao == 5:
+            print("\n=== STATUS ===")
+            for chave, valor in personagem.items():
+                print(f"{chave.capitalize()}: {valor}")
+        elif opcao == 6:
+            print("\n=== STATUS ===")
+            for chave, valor in personagem.items():
+                print(f"{chave.capitalize()}: {valor}")
+        elif opcao == 7:
+            print("\n=== STATUS ===")
+            for chave, valor in personagem.items():
+                print(f"{chave.capitalize()}: {valor}")
+        elif opcao == 8:
+            print("\n=== STATUS ===")
+            for chave, valor in personagem.items():
+                print(f"{chave.capitalize()}: {valor}")
+        elif opcao == 9:
+            print("\n=== STATUS ===")
+            for chave, valor in personagem.items():
+                print(f"{chave.capitalize()}: {valor}")
+        elif opcao == 10:
             print("\n=== STATUS ===")
             for chave, valor in personagem.items():
                 print(f"{chave.capitalize()}: {valor}")

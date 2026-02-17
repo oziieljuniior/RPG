@@ -5,12 +5,14 @@ with open("/home/darkcover/Documentos/RPG/version1/BancoDados/Jogo/dias.json", "
 
 DIAS_EVENTOS = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765]
 
-def eventodialooper(personagem, nivel, xp, dia):
+def eventodialooper(personagem):
+    #print(personagem)
     for n in range(len(DIAS_EVENTOS)):
-        if dia == 1 and nivel == 1 and xp == 0 and DIAS_EVENTOS[n] == 1:
+        if personagem['dia'] == 1 and personagem['nivel'] == 1 and personagem['xp'] == 0 and DIAS_EVENTOS[n] == 1:
             print(lore['0']['Titulo'])
             print(lore['0']['descrição'])
             print("Evento: ", lore['0']['impacto'])
+            personagem['xp'] += lore['0']['xp']
             break
     
     

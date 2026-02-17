@@ -1,5 +1,5 @@
 import json
-import os
+import os # os.system("clear")
 from Rolls.dados import d20
 
 
@@ -91,4 +91,5 @@ def criar_personagem(usuario):
     with open(ARQUIVO_DB, "w", encoding="utf-8") as f:
         json.dump(dados, f, indent=4, ensure_ascii=False)
 
+    os.system("clear")
     print(f"\n✅ Personagem '{nome}' da classe '{classe_escolhida}' criado com sucesso!")
