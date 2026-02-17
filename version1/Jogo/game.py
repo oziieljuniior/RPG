@@ -1,3 +1,4 @@
+from Jogo.Configuracoes.AtualizarDescricao import atualizar_json
 from Jogo.Eventos.dia import eventodialooper
 import os # os.system("clear")
 
@@ -50,7 +51,7 @@ def iniciar_jogo(usuario, personagem):
                 print(f"{chave.capitalize()}: {valor}")
         elif opcao == 4:
             os.system("clear")
-            print("\n=== STATUS ===")
+            print("\n========= STATUS =========")
             for chave, valor in personagem.items():
                 print(f"{chave.capitalize()}: {valor}")
         elif opcao == 5:
@@ -79,6 +80,8 @@ def iniciar_jogo(usuario, personagem):
                 print(f"{chave.capitalize()}: {valor}")
         elif opcao == 11:
             print("Salvando progresso...")
+            atualizar_json(personagem)
+            
             break
         else:
             print("Opção inválida!")

@@ -93,3 +93,4 @@ def criar_personagem(usuario):
 
     os.system("clear")
     print(f"\n✅ Personagem '{nome}' da classe '{classe_escolhida}' criado com sucesso!")
+    
