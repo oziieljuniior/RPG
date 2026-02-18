@@ -4,7 +4,13 @@ from Jogo.Eventos.dia import eventodialooper
 from Jogo.Eventos.sorte import rollSorte
 import os # os.system("clear")
 from Jogo.Raizes.cuiafurada import cuiafurada
-
+from Jogo.Raizes.adega import adega
+from Jogo.Raizes.teatroAmazonas import teatro
+from Jogo.Raizes.campoTreinamento import campo
+from Jogo.Raizes.sortimentosVariados import sortimentos
+from Jogo.Raizes.ferreiro import ferreiro
+from Jogo.Raizes.caldeirao import caldeirao
+from Jogo.Raizes.diario import diario
 
 def iniciar_jogo(usuario, personagem):
     controle1 = 0
@@ -47,46 +53,65 @@ def iniciar_jogo(usuario, personagem):
 
         if opcao == 1:
             os.system("clear")
+            print(16*'-*')
             print("Cuia Furada - Local de encontros e eventos sociais.")
             personagem, controle1 = cuiafurada(personagem, controle1)
             
         elif opcao == 2:
-            print("\n=== STATUS ===")
-            for chave, valor in personagem.items():
-                print(f"{chave.capitalize()}: {valor}")
+            os.system("clear")
+            print(16*'-*')
+            print("Adega - Local para aumentar suas habilidades de combate.")
+            adega(personagem)
+            
         elif opcao == 3:
-            print("\n=== STATUS ===")
-            for chave, valor in personagem.items():
-                print(f"{chave.capitalize()}: {valor}")
+            os.system("clear")
+            print(16*'-*')
+            print("Teatro Amazonas - Local para eventos culturais e artísticos.")
+            teatro(personagem)
+            
         elif opcao == 4:
             os.system("clear")
             print("\n========= STATUS =========")
             for chave, valor in personagem.items():
                 print(f"{chave.capitalize()}: {valor}")
+            
         elif opcao == 5:
-            print("\n=== STATUS ===")
-            for chave, valor in personagem.items():
-                print(f"{chave.capitalize()}: {valor}")
+            os.system("clear")
+            print(16*'-*')
+            print("Campos de Treinamento - Local para aprimorar suas habilidades.")
+            campo(personagem)
+            
         elif opcao == 6:
-            print("\n=== STATUS ===")
-            for chave, valor in personagem.items():
-                print(f"{chave.capitalize()}: {valor}")
+            os.system("clear")
+            print(16*'-*')
+            print("Sortimentos Variados - Local para comprar itens e equipamentos.")
+            sortimentos(personagem)
+        
         elif opcao == 7:
-            print("\n=== STATUS ===")
-            for chave, valor in personagem.items():
-                print(f"{chave.capitalize()}: {valor}")
+            os.system("clear")
+            print(16*'-*')
+            print("Ferreiro - Local para forjar equipamentos.")
+            ferreiro(personagem)
+            
         elif opcao == 8:
-            print("\n=== STATUS ===")
-            for chave, valor in personagem.items():
-                print(f"{chave.capitalize()}: {valor}")
+            os.system("clear")
+            print(16*'-*')
+            print("Caldeirão Borbulhante - Local para preparar poções e elixires.")
+            caldeirao(personagem)
+            
         elif opcao == 9:
-            print("\n=== STATUS ===")
-            for chave, valor in personagem.items():
-                print(f"{chave.capitalize()}: {valor}")
+            os.system("clear")
+            print(16*'-*')
+            print("Diário - Registros de eventos e missões.")
+            diario(personagem)
+            
         elif opcao == 10:
             os.system("clear")
-            print("\n======= Mapa ========")
-            mapa()
+            print(16*'-*')
+            print("Mapa - Visualização do mapa da cidade.")
+            mapa(personagem)
+            
+        
         elif opcao == 11:
             print("Salvando progresso...")
             atualizar_json(personagem)
